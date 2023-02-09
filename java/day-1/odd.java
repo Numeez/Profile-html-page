@@ -22,7 +22,7 @@ public class odd {
         System.out.println("Invalid input");
     }
 
-        
+sc.close();        
 
         
     }

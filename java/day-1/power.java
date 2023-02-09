@@ -35,7 +35,7 @@ public class power{
         else{
             System.out.println("No");
         }
-
+sc.close();
     
     }
 
