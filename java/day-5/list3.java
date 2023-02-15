@@ -23,12 +23,13 @@ public class list3 {
 
         }
         for(int i=0;i<5;i++){
-            if(ipl14.get(i).toString().equalsIgnoreCase(ipl15.get(i).toString())){
-                consistentPLayer.add(ipl14.get(i).toString());
+            if(ipl14.contains(ipl15.get(i).toString())){
+                consistentPLayer.add(ipl15.get(i).toString());
             }
+    }
 
-        }
         System.out.println("Name of consistent players are as follows : ");
+        
         for (String string : consistentPLayer) {
             System.out.println(string);
             
