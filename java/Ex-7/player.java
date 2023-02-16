@@ -8,15 +8,4 @@ public class player{
         sc.nextLine();
         TreeSet <String> players  = new TreeSet<String>();
         for(int i=0;i<n;i++){
-            System.out.println("Enter player of the match name :");
-            players.add(sc.nextLine());
-
-        }
-        System.out.println("Player names :");
-        for (String string : players) {
-            System.out.println(string);
-            
-        }
-        sc.close();
-    }
-}
+            System.out.println("Enter player of
